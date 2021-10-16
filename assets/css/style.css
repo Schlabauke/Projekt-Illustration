@@ -1,0 +1,241 @@
+/* 
+Farbe: #202020, #24bff2, #fff, #F5FBFE.
+color text:#747474 (color-picker)
+
+Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Merriweather:ital,wght@0,300;0,400;1,400&display=swap');
+
+ /* General Styles */
+ *{
+     margin:0;
+     padding:0;
+     box-sizing: border-box;
+     font-family: 'Merriweather', serif;
+     color:#747474 ;
+ }
+ h1, h2 {
+    color:#202020;
+    font-size:8vh;
+    margin: 1%;
+ }
+ p{
+    font-size: 3vh;
+    width: 60%;
+    line-height: 40px;
+   
+ }
+ /* section {
+    padding:5%;
+    margin:15% auto;
+   /*  margin: 5% 10% 0 5%; */
+ 
+
+ /* Nav Styles */
+ nav ul {
+     list-style: none;
+     padding:1% 2%;
+     text-align: right;
+ }
+ nav ul li{
+    color:#202020;
+     display: inline-block;
+     text-transform: capitalize;
+     padding-left: 1%;
+ } 
+
+/* Header Styles */
+header section {
+    background: url("../img/illustration1.gif") right/contain no-repeat;
+    padding:5%;
+    margin: 5% 10% 0 5%;
+}
+header section h1{
+    width: 60%;
+}
+header section p {
+    width:60%; 
+    margin:1% 1% 5% 1%;
+}
+
+/*  Button Styles */
+header div {
+    margin-left:1%;
+}
+header section div span:nth-of-type(1){
+    background: #202020;
+    box-shadow:-1px 3px 5px rgb(0,0,0,0.5);
+    color:#fff;
+    border-radius: 5%;
+    font-size: 2vh;
+    width: 10vw;
+    padding:1% 2%;
+    text-align: center;
+}
+header section div span:nth-of-type(2){
+    color:#202020;
+    box-shadow:-1px 3px 5px rgb(0,0,0,0.5);
+    border:1px solid #F5FBFE;
+    border-radius: 5%;
+    font-size: 2vh;
+    width: 10vw;
+    padding:1% 2%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* Main Style Section 1 */
+main section:nth-of-type(1) {
+    background: url("../img/illustration2.png") left/contain no-repeat;
+    padding:5%;
+    margin: 15% 5% 0 5%;
+}
+ main section:nth-of-type(1) div {
+    text-align:left;
+    width:65%;
+    margin-left:40%;
+ }
+ main section:nth-of-type(1) div p{
+     width:65%;
+    margin:1% 1% 5% 1%;
+ }
+
+/* Main Section 2 */
+main section:nth-of-type(2) {
+    background: url("../img/illustration3.png") right/contain no-repeat;
+    padding:5%;
+    margin: 15% 5% 0 5%;
+}
+main section:nth-of-type(2) div{
+    width: 60%;
+}
+/* Main Section 3 */
+main section:nth-of-type(3) {
+    text-align: center;
+    margin: 10% auto;
+}
+main section:nth-of-type(3) p {
+    margin:5% auto;
+} */
+
+main section:nth-of-type(3) div {
+    display: inline;
+}
+main section:nth-of-type(3) div img {
+    width:30%;
+    margin: 3% 1%;
+}
+main section:nth-of-type(3) div img:hover {
+    box-shadow:-1px 3px 5px rgb(0,0,0,0.5);
+}
+
+/* Section 4 Style */
+main section:nth-of-type(4) {
+    text-align: center;
+    margin: 0 auto;
+}
+main section:nth-of-type(4) p {
+    margin:5% auto;
+} 
+main section:nth-of-type(4) div {
+    margin: 5% auto;
+}
+main section:nth-of-type(4) div img {
+    width: 49%;
+    padding:2%;
+}
+main section:nth-of-type(4) div img:hover{
+    box-shadow:-1px 3px 5px rgb(0,0,0,0.5);
+}
+
+/* Section 5  Abo Style*/ 
+main section:nth-of-type(5) {
+    text-align: center;
+    margin: 10% auto;
+}
+main section:nth-of-type(5) p {
+    margin:5% auto;
+} 
+main section:nth-of-type(5) article:nth-of-type(2){
+    text-align: center;
+    margin: 0 auto;
+    padding: 4% 5% 5% 5%;
+    background-color:rgb(110, 210, 235, 0.1);
+    width:25%;
+    border-radius: 5%;
+    box-shadow:-1px 3px 5px rgb(0,0,0,0.5);
+}
+main section:nth-of-type(5) article:nth-of-type(2) h2 {
+    font-size: 3vh;
+}
+main section:nth-of-type(5) article:nth-of-type(2) p{
+    color:#202020;
+    font-size: 2vh;
+    width: 14vw;
+    padding:2% 0 3% 0;
+    margin:0 auto;
+}
+main section:nth-of-type(5) article:nth-of-type(2) p:nth-of-type(1){
+    font-size: 5vh;
+    margin: 10% auto;
+}
+main section:nth-of-type(5) article:nth-of-type(2) p:nth-of-type(2) {
+    color:#747474;
+    padding:5%;
+    
+}
+main section:nth-of-type(5) article:nth-of-type(2) p:nth-of-type(3) {
+    line-height: 3vh;
+}
+main section:nth-of-type(5) article:nth-of-type(2) div {
+    background: #24bff2;
+    box-shadow:-1px 3px 5px rgb(0,0,0,0.5);
+    color:#F5FBFE;
+    border-radius: 5%;
+    font-size: 2vh;
+    width: 17vw;
+    padding:5% 10%;
+    text-align: center;
+    margin: 10% 5% 0 -5%;
+}
+/* Footer Styles */
+footer {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 5% auto;
+    
+}
+footer ul li{
+list-style-type: none;
+padding:1%;
+color:#202020;
+}
+footer ul li:nth-of-type(odd){
+    color:#747474;
+}
+footer ul li:last-of-type span{
+    color:#202020;
+}
+footer ul li:last-of-type span:nth-of-type(1)::before{
+    content: ".";
+    color:#3b5998;
+    font-size:35px;
+}
+footer ul li:last-of-type span:nth-of-type(2)::before{
+    content: ".";
+    color:#fcaf45;
+    font-size:35px;
+}
+footer ul li:last-of-type span:nth-of-type(3)::before{
+    content: ".";
+    color:#55acee;
+    font-size:35px;
+}
+footer ul li:last-of-type span:nth-of-type(4)::before{
+    content: ".";
+    color:#c4302b;
+    font-size:35px;
+}
